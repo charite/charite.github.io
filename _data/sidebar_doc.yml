@@ -76,75 +76,74 @@ entries:
       print: true
       items:
         - title: PhenIX
-          url: /doc_sidebar_navigation.html
+          url: /software-phenix.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: BOQA
-          url: /doc_top_navigation.html
+          url: /software-boqa.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: PhenogramViz
-          url: /doc_tags.html
+          url: /software-phenoviz.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: ExomeWalker
-          url: /doc_tags.html
+          url: /software-exomewalker.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Exomiser
-          url: /doc_tags.html
+          url: /software-exomiser.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Human Phenotype Ontology
-          url: /doc_tags.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: IBD2
-          url: /doc_tags.html
+          url: /software-hpo.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Ontologizer
-          url: /doc_tags.html
+          url: /software-ontologizer.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Phenomizer
-          url: /doc_tags.html
+          url: /software-phenomizer.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Jannovar
-          url: /doc_tags.html
+          url: /software-jannovar.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
+        - title: IMSEQ
+          url: /software-imseq.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
 
 
 
@@ -158,42 +157,35 @@ entries:
       print: true
       items:
         - title: Genomics
-          url: /doc_adding_tooltips.html
+          url: /teaching-genomics.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Medical Genomics
-          url: /doc_alerts.html
+          url: /teaching-med-genomics.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Student Projects
-          url: /doc_icons.html
+          url: /teaching-studprojects.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Computer-guided diagnostics
-          url: /doc_images.html
+          url: /teaching-cnv-seminar.html
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: Genetik
-          url: /doc_labels.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Links
-          url: /doc_hyperlinks.html
+          url: /teaching-genetics.html
           audience: writers, designers
           platform: all
           product: all
@@ -205,10 +197,41 @@ entries:
       platform: all
       product: all
       version: all
+      items:
+        - title: Selected
+          url: /publications_selected.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: All
+          url: /publications_all.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+      
 
     - title: Team
       audience: writers, designers
       platform: all
       product: all
       version: all
+      items:
+        - title: Members
+          url: /team.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Alumni
+          url: /alumni.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
        
