@@ -4,7 +4,7 @@ title: PhenogramViz
 
 PhenogramViz is a tool that automatically analyses and visualizes gene-to-phenotype relations for a set of genes affected by CNV of a patient and a set of HPO-terms representing the symptoms of said patient. The tool makes full use of the cross-species phenotype ontology "uberpheno" (see [here](http://f1000research.com/articles/2-30/v2)).
 
-![PhenoViz](/assets/images/phenoviz.png)
+![PhenoViz](/images/phenoviz.png)
 
 
 ##Video Tutorials
@@ -47,7 +47,7 @@ Previous: [PhenogramViz (0.1.2)](http://compbio.charite.de/tl_files/groupmembers
  
 ##Citation
 
-Please cite this paper when using PhenogramViz:
+Please cite [this paper](http://jmg.bmj.com/content/51/11/766) when using PhenogramViz!
 
  
  
