@@ -12,9 +12,6 @@ layout: default
    {% endif %}
 
     {% include toc.html %}
-    {% if site.github_editme_path %}
-    <a href="https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}" class="btn btn-default " role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-    {% endif %}
 
        {{content}}
 
@@ -31,7 +28,9 @@ layout: default
     {% endif %}
 </div>
 
-{% include disqus.html %}
+{% if site.github_editme_path %}
+    <a href="https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}" class="btn btn-default " role="button"><i class="fa fa-github fa-lg"></i> Edit</a>
+    {% endif %}
 
 </div>
 
