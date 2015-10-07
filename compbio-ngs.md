@@ -10,7 +10,7 @@ Sequencing techniques of the second generation (also referred to as NGS, next ge
 ##Mutation Screening
 
 Our NGS sequencing facility currently generates sequence data in the order of Giga bases. We use reference guided resequencing to screen large genomic regions in the order of Mega bases or Whole Exomes for disease causing mutations in patients suffering from Mendelian diseases. With elaborate Bioinformatic filtering approaches the plethora of all called variants are narrowed down to a small set of candidate mutations. 
-![Mutation Screening](/assets/images/mutscreen.jpg)
+![Mutation Screening](/images/mutscreen.jpg)
 
 
 ##Transcription Profiling
