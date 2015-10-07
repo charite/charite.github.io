@@ -1,0 +1,64 @@
+## This content is duplicated here from configs/config_designers.yml because I'm building this site through Github Pages, and Github Pages just looks for the _config.yml file in the root directory to create the build.
+# project definitions
+project: doc_designers
+audience: designers
+product: all
+platform: all
+version: all
+destination: ../doc_designers
+topnav_title: Jekyll Documentation Theme
+homepage_title: Jekyll Documentation Theme &mdash; Designers
+site_title: Jekyll Documentation Theme &mdash; Designers
+google_analytics: UA-62837903-3
+github_editme_path: charite/charite.github.io/blob/gh-pages
+
+#github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages
+# don't use a slash before or after the above path. here's how this url gets written out in page.html: https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}
+# variables
+
+sidebar_tagline: CBCB
+sidebar_version: compbio@charite-berlin
+
+port: 4001
+
+exclude:
+  - doc_writers*
+  - configs/
+  - _site
+  - doc_multi*
+
+# same for all
+host: 127.0.0.1
+feedback_email: dr.sebastian.koehler@gmail.com
+sidebar_accordion: true
+markdown: redcarpet
+print: false
+theme_file: theme-blue.css
+# only use suffix if you need to force index.html to display
+# suffix: index.html
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
+
+highlighter: pygments
+
+collections:
+  tooltips:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
