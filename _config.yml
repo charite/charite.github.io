@@ -7,7 +7,7 @@ platform: all
 version: all
 destination: ../doc_designers
 topnav_title: CBCB home
-homepage_title: Computational Biology @ Charité Berlin
+homepage_title: Home
 site_title: Computational Biology @ Charité Berlin
 google_analytics: UA-62837903-3
 github_editme_path: charite/charite.github.io/edit/master
