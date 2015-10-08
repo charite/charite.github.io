@@ -3,7 +3,7 @@ title: Students
 ---
 
 
-*The group for computational biology and bioinformatics at the Institute for Medical Genetics at the Charité offers challenging internships, bachelor and masterthesis for interested students of Computer Sciences and Bioinformatics.*
+>The group for computational biology and bioinformatics at the Institute for Medical Genetics at the Charité offers challenging internships, bachelor and masterthesis for interested students of Computer Sciences and Bioinformatics.
 
 
 Next Generation Sequencing
