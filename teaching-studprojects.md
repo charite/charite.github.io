@@ -3,10 +3,10 @@ title: Students
 ---
 
 
->The group for computational biology and bioinformatics at the Institute for Medical Genetics at the Charité offers challenging internships, bachelor and masterthesis for interested students of Computer Sciences and Bioinformatics.
+The group for computational biology and bioinformatics at the Institute for Medical Genetics at the Charité offers challenging internships, bachelor and masterthesis for interested students of Computer Sciences and Bioinformatics.
 
 
-Next Generation Sequencing
+**Next Generation Sequencing**
 
 Sequencing techniques of the second generation are revolutionizing genetics. These high through-put techniques generate several orders of magnitude more sequencing data and challenge bioinformaticians. We use a Genome Analyzer II for genome wide mutation screening.
 We will sketch three projects, that could be dealt within the scope of a software engineering internship or "Berufspraktikum" of 8 weeks:
@@ -21,7 +21,8 @@ We will sketch three projects, that could be dealt within the scope of a softwar
 **Human Phenotype Ontology**
 
 The Human Phenotype Ontology project requires new interfaces for exploring, visualising and improve the ontology. The student should develop Java-servlets for these tasks.
-Disease Gene Prediction
+
+Application of the HPO to different fields in the life science domain, especially for transferring knowledge from rare and genetic diseases to other fields.
 
 Possible projects are:
 
