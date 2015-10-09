@@ -11,5 +11,6 @@ exome sequencing studies of Mendelian diseases*<br>
 Damian Smedley,Sebastian Kohler, Johanna Christina Czeschik,Joanna Amberger, Carol Bocchini, Ada Hamosh, Julian Veldboer,Tomasz Zemojtel, Peter N Robinson<br>
 *Bioinformatics* (2014) 30 (22): 3215-3222.
 
-ExomeWalker has been developed by our group and the Mouse Informatics Group at the Sanger Institute.
+ExomeWalker has been developed by our group and the Mouse Informatics Group at the Sanger Institute. 
+The online application is availble at [http://compbio.charite.de/ExomeWalker/](http://compbio.charite.de/ExomeWalker/)
 
