@@ -13,5 +13,6 @@ Peter Hansen                        | PhD Student   | [GitHub](https://github.co
 Na Zhu                              | PhD Student   | 
 Leon Kuchenbecker                   | PhD Student   | [GitHub](https://github.com/lkuchenb)
 Max Schubach, M.Sc.                 | PhD Student   | [GitHub](https://github.com/visze)
+Layal Abo Khayal                    | PhD Student   | 
 
 
