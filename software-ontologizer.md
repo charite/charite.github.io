@@ -105,12 +105,12 @@ The [recommended nomeclature for C. elegans](http://www.wormbase.org/wiki/index.
 
 In this example, we used the Ontologizer to analyze a set of genes identified by [Liu et al. (2004)](http://www.ncbi.nlm.nih.gov/pubmed/15380030?dopt=Abstract) as being regulated by TGFbeta during entry into dauer diapause in C. elegans.
 
-When resources are scant, C. elegans larvae arrest as long-lived dauers under the control of insulin/IGF- and TGFbeta-related signaling pathways. The authors identified genes that show different levels of expression in a comparison of wild-type L2 or L3 larvae (non-dauer) to TGFbeta mutants at similar developmental stages undergoing dauer formation. The data shown here represent the strongly regulated (>2.1 fold) genes in this experiment and were taken from table 2. The population set was taken to be all C. elegans genes for which annotations were provided by Wormbase. Among other things, GO analysis revealed that a number of terms related to ribosomes were highly significantly overrepresented. The gene names in these clusters represent a mix of cosmid and standard names. The **gene_association.wb** file provided by Wormbase and the cluster files with gene names were used as is.
+When resources are scant, C. elegans larvae arrest as long-lived dauers under the control of insulin/IGF- and TGFbeta-related signaling pathways. The authors identified genes that show different levels of expression in a comparison of wild-type L2 or L3 larvae (non-dauer) to TGFbeta mutants at similar developmental stages undergoing dauer formation. The data shown here represent the strongly regulated (>2.1 fold) genes in this experiment and were taken from table 2. The population set was taken to be all C. elegans genes for which annotations were provided by Wormbase. Among other things, GO analysis revealed that a number of terms related to ribosomes were highly significantly overrepresented. The gene names in these clusters represent a mix of cosmid and standard names. The **gene_association.wb** file provided by Wormbase and the cluster files with gene names were used as is. [Example data](https://github.com/charite/charite.github.io/blob/master/media/ontologizer/examples/yeastSampleFiles.zip?raw=true).
 
 ### Mus musculus
 Mouse Genome Informatics (MGI) (Jackson Laboratories) supplies a gene_association file for M. musculus. They also provide [guidelines for mouse gene nomeclature](http://www.informatics.jax.org/mgihome/nomen/gene.shtml). The gene_association.mgi file provided by MGI contain annotations based primarily on MGI accession numbers. Therefore, one way of using the Ontologizer to analyze mouse datasets that are based on NCBI accession numbers is to transform the accession numbers into the corresponding MGI accession numbers. We present a way of doing this with perl scripts using files from NCBI's Entrez Gene (gene_info and gene2accession).
 
-The perl script NCBI2MG.pl maps NCBI accession numbers via Entrez Gene ids to MGI accession numbers. The output file, NCBI2MGI.txt, can be used as a mapping file for the Ontologizer. The original accession numbers are visible (together with the full gene name, locusID, and UniGene cluster) directly after the MGI accession number. For accession numbers for which no MGI id could be identified (mainly some ESTs), just the original accession number is displayed. The corresponding original files can be [downloaded here](https://github.com/charite/charite.github.io/blob/master/images/mouseSampleFiles.tar.gz?raw=true).
+The perl script NCBI2MG.pl maps NCBI accession numbers via Entrez Gene ids to MGI accession numbers. The output file, NCBI2MGI.txt, can be used as a mapping file for the Ontologizer. The original accession numbers are visible (together with the full gene name, locusID, and UniGene cluster) directly after the MGI accession number. For accession numbers for which no MGI id could be identified (mainly some ESTs), just the original accession number is displayed. The corresponding original files can be [downloaded here](https://github.com/charite/charite.github.io/blob/master/media/ontologizer/examples/mouseSampleFiles.tar.gz?raw=true).
 
 
 ### Results
@@ -212,3 +212,110 @@ The following code demonstrates how to use R/Bioconductor to download and analyz
 	pop.name = paste("population",platform,"txt",sep="")
 	write.table(mapping[,2],col.names=F,row.names=F,quote=F,file=pop.name)
  
+
+## Webstart
+ 
+The Ontologizer can be started directly from this website using Java webstart by clicking on the following icon:
+
+[![Foo](images/webstart.jpg)](http://compbio.charite.de/tl_files/ontologizer/webstart/ontologizer.jnlp)
+
+Webstart applications are started directly from a web browser, which downloads the program code to the local computer. If the code has already been downloaded, the browser checks if the server has a newer version. If not, the local copy of the program is started. Further information is available at Sun's webstart site.
+
+For users, webstart means that the webbrowser will automatically download and use the latest available version of the webstart program, so users will automatically benefit from updates and bugfixes. Once the current version of the program has been downloaded, the program will start essentially as quickly as a traditional desktop application.
+
+### Potential Problems with the Term Browser and Help Window of the Ontologizer
+
+With some combinations of debian linux and firefox, we have noticed a problem with the Ontologizer finding the libraries needed to allow browsing of GO terms and the show the HTML format of the help system. If you notice this problem, it may help to set the variable MOZILLA_FIVE_HOME in the file /etc/environment as follows:
+
+	MOZILLA_FIVE_HOME=/usr/lib/xulrunner and to install the latest version of the packages "xulrunner" and "libxul-dev" with apt-get or aptitude.
+
+
+The Ontologizer should start properly with all common Windows browsers (we have tested it with IE6, IE7 and Firefox).
+
+### MacIntosh
+The Ontologizer is built using GUI elements from the Standard Widget Toolkit (SWT) known from Eclipse. SWT has been built and test for Windows and Linux systems and the Ontologizer should work without problems on machines running Linux or modern versions of Windows. Unfortunately, the SWT for Mac OSX is not yet advanced enough, and therefore we decided to declare Ontologizer for Macintosh as unsupported at this time. Embarassed
+
+
+## Manual Invocation
+
+Here you can find the binary of the [Ontologizer application](). It can be used if, for instance, the webstart facility doesn't work for your platform.
+
+
+In order to run the application, you need to have the proper SWT-jar as well. This can be obtained by following [Eclipse's SWT homepage](http://www.eclipse.org/swt/). Current versions of Ontologizer are build against version 3.7 of SWT, thus it is recommended to use the [SWT 3.7](http://download.eclipse.org/eclipse/downloads/drops/R-3.7.2-201202080800/#SWT) as well. Note that the platform of the SWT archive has to match the platform of your computer system. For instance, if you are running on Windows, download the Windows SWT archive, or if you are running on a 64 bit x86 Linux, download the SWT archive indicated by x86_64.
+
+Once you have downloaded the ontologizer.jar file and located the swt.jar file within the downloaded SWT archive you can start Ontologizer by typing (on Linux)
+
+	java -Xmx1G -cp swt.jar:ontologizer-gui-with-dependencies.jar ontologizer.gui.swt.Ontologizer
+	
+or by typing (on Windows)
+
+	java -XmX1G -cp swt.jar;ontologizer-gui-with-dependencies.jar ontologizer.gui.swt.Ontologizer
+	
+in the command line, assuming that both swt.jar and ontologizer.jar files are present in the current directory.On MacOSX you may have to add -XstartOnFirstThread, -d32 or both before the -cp argument, depending on the SWT version you have just downloaded.
+
+
+## Command Line
+This how-to describes the command-line version of the Ontologizer. This version can be used for batch processing or pipelines. Most general users will prefer the Java WebStart version, though. At first, download the .jar file.
+
+A possible more recent version of the command line utility is available from our [Hudson installation](http://compbio.charite.de/hudson/job/ontologizer.cmd/lastSuccessfulBuild/artifact/dist/cmdline/)
+
+Ontologizer is a Java-Application and needs to be started via the 'java' command and be invoked with a plenty of arguments. All possible command arguments can be viewed via the --help argument. E.g. java -jar Ontologizer.jar --help. Here is a full list of options:
+
+	Short Option	Long Option	Explanation
+	-m	--mtc	Specifies the MTC method to use. Possible values are: "Bonferroni" (default), "None", "Westfall-Young-Single-Step"
+	-c	--calculation	Specifies the calculation method to use. Possible values are: "Parent-Child-Union", "Parent-Child-Intersection", "Term-For-Term" (default). For a full list, consult the output of the -h option.
+	-a	--association	File containing associations from genes to GO terms. Required
+	-d	--dot	For every studyset analysis write out an additional .dot file (GraphViz) containing the GOTerm graph with significant nodes. The optional argument in range between 0 and 0.5 specifies the maximum level on which a term is considered as significantly enriched. By appending a GO Term identifier (separated by a comma) the output is restriced to the subgraph originating at this GO Term.
+	-f	--filter	Filter the gene names by appling rules in a given file (currently only mapping supported).
+	-g	--go	Path to gene_ontology_edit.obo file (Required)
+	-h	--help	Shows this help
+	-i	--ignore	Ignore genes to which no association exist within the calculation.
+	-n	--annotation	Create an additional file per study set which contains the annotations.
+	-o	--outdir	Specfies the directory in which the results will be placed.
+	-p	--population	File containing genes within the population. Required
+	-r	--resamplingsteps	Specifies the number of steps used in resampling based MTCs
+	-s	--studyset	File of the study set or a directory containing study set files. Required
+	-v	--version	Shows version information and exits
+
+Instructions for Running the Ontologizer
+
+In order to do something useful, Ontologizer must be started with several arguments (as indicated with "Required" within the output above).
+ 
+First, you are required to specify the -g (or --go) option. This defines the path to a file which contains the GO terminology and structure. Ontologizer is able to parse files in the OBO format. Such are available directly at the GO Website.
+ 
+Second, you are required to specify the -a option which defines the mapping of gene names to GO terms. The GO Website provides association files for a variety of organisms, as well.
+ 
+Third, you must specify a population file with the -p option. This file contains all gene names (one per line) of the population set, e.g. the names of the genes of your microarray.
+ 
+Last, you need to specify the path to your study set(s) with the -s option.. This can eighter be a single file for a single study set or a directory, in which case all files (ending with *.txt) are considered as separate study sets. As for the population file, one line represents only a single gene name.
+ 
+When started with these four parameters only, the output of Ontologizer's calculation is written to a basic ascii table file into the same directory where the study files are located. The table's filename is derived from the name of the study set in question but prepended with "table-" string.
+ 
+Using the -d option, you can instruct Ontologizer to create a graphical output of the results. For every study set, a file (name is prepended with "view-") is written which can be read by the graphviz 'dot' tool to produce a viewable graphics file. In this file, terms are depicted by nodes and their hierachical relations are depicted by edges. Because the GO DAG contains a huge amount of terms, the graph is constructed only for signifant terms and their predecessors (up to the source) and those significant terms are highligthed. Which terms are considered as significant is influenced by their p-values and the significance threshold. This threshold is specified as a parameter to the -d argument. It must be a valid floating point value ranging from 0 to 0.5. For example use "-d 0.05" to define those terms as significant whose p-value falls below 0.05.
+ 
+In addition, you can specify a GO Term ID, after the floating-point value (separated by ","). In this case only the subgraph starting at this term is written. For example use "-d 0.05,8152" to get only a graph with the term id GO:0008152 (metabolism) and its successors within the subgraph emanating from GO:0008152 such that all significantly overrepresented terms are included in the graph.
+ 
+Some sample datasets and population sets can be downloaded from this page.
+To perform parent-child analysis using Westphal-Young MTC on the Yeast data set from the tutorial page and display the results using dot, enter the following command:
+
+	java -jar Ontologizer.jar -a gene_association.sgd -g gene_ontology.obo -s study/4hourSMinduced.txt -p population.txt -c Parent-Child-Union -m Westfall-Young-Single-Step -d 0.05 -r 1000
+The corresponding files must be in the current directory (or their full path must be indicated). To create a PNG image with the result, enter
+
+	dot -Tpng view-4hourSMinduced-Parent-Child-Westfall-Young-Single-Step.dot -oExample.png
+	
+The corresponding graphic should look something like this:
+![Dot Example](images/Example.png)
+
+## Obtaining Graphviz
+
+Graphviz is a Open Source project which provides tools for layouting and depicting graphs. Hereby, graph references to mathematical entities which consists of nodes and edges.
+
+A installed Graphviz system is a requirement for Ontologizer's facility to visualize the results of an enrichment analysis. More precisely, the tool named dot is invoked which performs the layouting step of the graph.
+
+Windows users can obtain the installation package of Graphviz following the Download link of www.graphviz.org. On this site, you also can find the latest source packages which can be used, for instance by Linux, users to compile the package. Linux Distributions such as Debian provide binary packages for Graphviz as well. This allows a straithforward installation of Graphviz.
+
+Note that in general, the standard installtion (of the Windows and Linux installation) is perfectly suited for Ontologizer. If however, for any reason, the dot exectutable is not in the command path, you have to tell Ontologizer explicitly where this command can be found by entering the full path within the Preferences window, which can be obtained via the Window > Preferences.... menu entry.
+
+## Accessing Source
+ 
+The source of Ontologizer can be found in an SVN repository which is hosted on SourceForge. The project name is ontologizer.
