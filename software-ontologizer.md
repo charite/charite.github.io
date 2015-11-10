@@ -117,3 +117,98 @@ The perl script NCBI2MG.pl maps NCBI accession numbers via Entrez Gene ids to MG
 
 The results window contains a table with one line for each gene in the population. Clicking on a line causes more information about a term to be displayed in the lower panel. A list of annotated genes/proteins is shown, and links to parent and child terms are available. By clicking on the symbol for "graph", a graph is generated and shown in the right hand panel. Buttons for zooming in and out are provided. The table of results can be saved and the graph can be saved as a PNG file or a dot file (this is the GraphViz definition file). Note that the graphics function requires that [GraphViz](http://www.graphviz.org/) is installed on your computer.
 
+## Datasets
+
+### Datasets for GO Analysis
+A typical dataset for statistical analysis using the Ontologizer or many other GO tools will consist of a list of gene/protein names making up a study set (for instance, all differentially expressed genes in an experiment) and a longer list of gene/protein names making up the population (for instance, all genes represented on a microarray that was used to perform the experiment). It has been our experience that is is difficult to find such datasets on the web, which is a stumbling block for testing new algorithms or tools for GO analysis. 
+
+On this page we present an R/Bioconductor script that makes it easy to create study sets/population sets using publically available microarray datasets from NCBI's Gene Expression Omnibus (GEO) database. It should be easy to adapt this script to analyze in house datasets derived from Affymetrix microarray hybridizations. Currently there are thousands of datasets in the GEO database, so extensive testing and comparisons of different algorithms should be possible. On this page, we explain the R script and present several datasets obtained using it.
+
+### Software Prerequisites and Data Sources
+
+*R and Bioconductor*
+
+R is an extremely powerful open-source language for statistical computing and graphics that runs on all standard computer plattforms. Bioconductor is a set of packages for the R environment that provide a larege number of useful tools for the analysis of microarray and other forms of genomic data.
+
+
+*Bioconductor packages*
+
+Our script makes use of two Bioconductor packages to perform the analysis. The package GEOquery automatically retrieves microarray from the GEO website, and the package limma performs a number of statistical analyses including the identification of differentially expressed genes. Depending on your setup, you may need to install these packages. There are several ways of doing this, but the easiest is probably
+
+
+    source("http://www.bioconductor.org/biocLite.R")
+    biocLite("GEOquery")
+
+*GEO*
+
+NCBI's Gene Expression Omnibus (GEO) database is a repository of thousands of microarray datasets. GEO DataSets (GDS) are curated sets of GEO Sample data. A GDS record represents a collection of biologically and statistically comparable GEO Samples and forms the basis of GEO's suite of data display and analysis tools.
+
+### R/Bioconductor Code for Creating Study and Population Datasets
+ 
+The following code demonstrates how to use R/Bioconductor to download and analyze datasets from the NCBI GEO database and to create study and population sets from them.
+
+
+	#Fetch data and create study/population datasets for the Ontologizer
+
+	library(Biobase)
+	library(GEOquery)
+	library(limma)
+
+
+	dataset.name <- "GDS2821"
+	gds <- getGEO(dataset.name,destdir=".")
+	#gds <- getGEO(filename = system.file("GDS2860.soft.gz",package = "GEOquery"))
+	eset <- GDS2eSet(gds,do.log2=TRUE)
+	## extract affymetrix IDs
+	ids<-rownames(exprs(eset))
+
+
+	## Extract phenotypic information
+	## Use gsub to simplify the names (makes it easier to define factors)
+	state <- Columns(gds)$disease.state
+	state <- gsub("Parkinson's disease","parkinson",state)
+	
+	## Define the factors for the statistical analysis
+	f <- factor(state)
+	design <- model.matrix(~0+f)
+	contrast.matrix<-makeContrasts(fparkinson-fcontrol,levels=design)
+	
+	## Get the platform name and check that we got data
+	platform<-as.character(Meta(gds)$platform)
+	print(paste("Platform",platform,"contains ",length(ids),"spots"))
+	
+	## Retrieve the platform information.
+	gpl.name <- paste(platform,".soft",sep="")
+	if (file.exists(gpl.name)) {
+	  gpl<-getGEO(filename=gpl.name,destdir=".")
+	} else {
+	  gpl<-getGEO(platform,destdir=".")
+	}
+	
+	## This is the correspondence between the
+	## affymetrix IDs and the gene symbol
+	mapping <- Table(gpl)[,c("ID","Gene.Symbol")]
+	
+	### t-test
+	fit<-lmFit(eset,design)
+	fit2<-contrasts.fit(fit,contrast.matrix)
+	fit2<-eBayes(fit2)
+	
+	## Adjust for multiple testing
+	p.values<-fit2$p.value
+	p.BH <- p.adjust(p.values,method="BH")
+	
+	# get the indices of all significant p values
+	ord<-order(p.val)
+	ord.sign<-subset(ord,p.val[ord]<0.1)
+	
+	## check results
+	mapping[ord.sign,]
+	
+	## Write study set
+	studyset.name = paste("study",dataset.name,".txt",sep="")
+	write.table(mapping[ord.sign,2],file=studyset.name,col.names=F,row.names=F,quote=F)
+	
+	pop.name = paste("population",platform,"txt",sep="")
+	write.table(mapping[,2],col.names=F,row.names=F,quote=F,file=pop.name)
+ 
