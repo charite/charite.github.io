@@ -5,7 +5,17 @@ title: All Publications
 
 
 <ol class="bibliography">
-        
+
+<li><span id="exomiser_natgenet" Smedley D, Jacobsen JO, <b>Jäger M</b>, <b>Köhler S</b>, <b>Holtgrewe M</b>, <b>Schubach M</b>, Siragusa E, <b>Zemojtel T</b>, Buske OJ, Washington NL, Bone WP, Haendel MA, <b>Robinson PN</b>. (2015). Next-generation diagnostics and disease-gene discovery with the Exomiser. <i>Nature Protocols</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26562621">Link</a>  </li>
+
+
+<li><span id="bone"Bone WP, Washington NL, Buske OJ, Adams DR, Davis J, Draper D, Flynn ED, Girdea M, Godfrey R, Golas G, Groden C, Jacobsen J, <b>Köhler S</b>, Lee EM, Links AE, Markello TC, Mungall CJ, Nehrebecky M, <b>Robinson PN</b>, Sincan M, Soldatos AG, Tifft CJ, Toro C, Trang H, Valkanas E, Vasilevsky N, Wahl C, Wolfe LA, Boerkoel CF, Brudno M, Haendel MA, Gahl WA, Smedley D. (2015). Computational evaluation of exome sequence data using human and model organism phenotypes improves diagnostic efficiency. <i>Genetics in Medicine</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26562225">Link</a>  </li>
+
+<li><span id="natrevgenet"Brookes AJ, <b>Robinson PN</b> (2015). Human genotype-phenotype databases: aims, challenges and opportunities. <i>Nature Reviews Genetics</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26553330">Link</a>  </li>
+
+<li><span id="copas" Corpas M, Valdivia-Granda W, Torres N, Greshake B, Coletta A, Knaus A, Harrison AP, Cariaso M, Moran F, Nielsen F, Swan D, Weiss Solís DY, Krawitz P, Schacherer F, Schols P, Yang H, Borry P, Glusman G, <b>Robinson PN</b> (2015). Crowdsourced direct-to-consumer genomic analysis of a family quartet. <i>BMC Genomics.</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26547235">Link</a>  </li>
+<li><span id="paradox"><b>Krawitz P</b>, Buske O, Zhu N, Brudno M, <b>Robinson PN</b> (2015). The Genomic Birthday Paradox: How Much Is Enough? <i>Human Mutation</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26239817">Link</a>  </li>
+<li><span id="phenolyzer"> Yang H, <b>Robinson PN</b>, Wang K. (2015). Phenolyzer: phenotype-based prioritization of candidate genes for human diseases. <i>Nature Methods</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26192085">Link</a>  </li>
 <li><span id="ajhg">Groza, T., <b>Kohler, S.</b>, Moldenhauer, D., Vasilevsky, N., Baynam, G., Zemojtel, T., Schriml, L. M., Kibbe, W. A., Schofield, P. N., Beck, T., et al. (2015). The Human Phenotype Ontology: Semantic Unification of Common and Rare Disease. <i>The American Journal of Human Genetics</i>, .</span>   <a href="http://www.cell.com/ajhg/abstract/S0002-9297(15)00234-7">Link</a>  </li>
 <li><span id="pmid26096994">Flottmann, R., Knaus, A., Zemojtel, T., <b>Robinson, P. N.</b>, Mundlos, S., Horn, D., and Spielmann, M. (2015). FGFR2 mutation in a patient without typical features of Pfeiffer syndrome - The emerging role of combined NGS and phenotype based strategies. <i>Eur J Med Genet</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26096994">Link</a>  </li>
 <li><span id="pmid26092691">Haendel, M. A., Vasilevsky, N., Brush, M., Hochheiser, H. S., Jacobsen, J., Oellrich, A., Mungall, C. J., Washington, N., <b>Kohler, S.</b>, Lewis, S. E., et al. (2015). Disease insights through cross-species phenotype comparisons. <i>Mamm. Genome</i>, .</span>   <a href="http://link.springer.com/article/10.1007%2Fs00335-015-9577-8">Link</a>  </li>
