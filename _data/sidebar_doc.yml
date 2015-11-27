@@ -229,7 +229,7 @@ entries:
 
       
 
-    - title: Team
+    - title: Team/Contact
       audience: writers, designers
       platform: all
       product: all
@@ -248,5 +248,13 @@ entries:
           platform: all
           product: all
           version: all
+
+        - title: Contact
+          url: /team_contact.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
 
        
