@@ -12,7 +12,7 @@ Marten Jäger, M.Sc.                 | PhD Student   | [GitHub](https://github.c
 Peter Hansen                        | PhD Student   | [GitHub](https://github.com/hansenp)
 Na Zhu                              | PhD Student   | 
 Leon Kuchenbecker                   | PhD Student   | [GitHub](https://github.com/lkuchenb)
-Max Schubach, M.Sc.                 | PhD Student   | [GitHub](https://github.com/visze)
+Max Schubach, M.Sc.                 | PhD Student   | [Page](team_schubach.html) [GitHub](https://github.com/visze)
 Layal Abo Khayal                    | PhD Student   | 
 
 
