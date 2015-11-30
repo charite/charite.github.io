@@ -12,7 +12,8 @@ title: Max Schubach
 
 ## Selected publications
 
-*
+See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wMAAAA) for a complete list.
+* 
 
 ## Contact
 
