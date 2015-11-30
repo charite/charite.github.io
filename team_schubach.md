@@ -1,8 +1,20 @@
 ---
 title: Max Schubach
 ---
+## CV
 
-# Contact
+|  | |    |
+|----------------:|:------------|:---|
+|09/2014–present|__PhD Student__| *Computational Biology Group, Charité, Berlin.* |
+|05/2012–08/2014|__Bioinformatician__|*[CeGaT](http://cegat.de), Tübingen*|
+|2009–2012      |__Master of Science in Bioinformatics__|*University of Tübingen*|
+|2006–2009      |__Bachelor of Science in Bioinformatics__|*University of Tübingen*|
+
+## Selected publications
+
+*
+
+## Contact
 
 	Max Schubach
 	Charité - Universitätsmedizin Berlin
