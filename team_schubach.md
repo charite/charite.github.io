@@ -1,5 +1,5 @@
 ---
-title: Max Schubach,  M.Sc. Bioinformatik 
+title: Max Schubach,  M.Sc. Bioinformatics
 ---
 ## CV
 
