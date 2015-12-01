@@ -10,7 +10,7 @@ published: true
 **Welcome!**
 
 The CBCB is located at the Institute for Medical Genetics and Human 
-Genetics at Charité-Universitätsmedizin Berlin. We develop algorithms and 
+Genetics at <a href="http://www.charite.de" target="_new1">Charité-Universitätsmedizin Berlin</a>. We develop algorithms and 
 applications in the field of the Human Phenotype Ontology, Gene Ontology, Phenotypic Analysis, Machine 
 Learning, and modeling of biological networks with the tools of linear 
 algebra and graph theory. 
