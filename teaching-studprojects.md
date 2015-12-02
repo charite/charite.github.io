@@ -29,3 +29,9 @@ Possible projects are:
  
  
  >All software projects deal with topics that are also of high interest to the research community. Commited students may be able to publish their work in scientific journals. For the projects described above interested students should contact Peter Robinson, Sebastian Köhler and Peter Krawitz. Ideally, the student should already have good programming skills in Perl, Java, C++ or comparable programming languages.
+
+## Master's Thesis
+
+Here you can find open master's theses to other topics
+
+* [Genome variant simulator](master_simulator.html)
