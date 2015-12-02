@@ -4,7 +4,7 @@ title: Open Master's thesis - Genome variant simulator
 
 # Open Master's thesis - Genome variant simulator
 
-The lower cost of of next-generation sequencing starts a new area of genetic data generation. Thousands of genomes or exomes are sequenced around the world. It is only a matter of time if the vision in sequencing the genome for everly patient comes true. Therfeore new algorithms needs to be invented to deal with the new flood of genetic information.
+The lower cost of of next-generation sequencing starts a new area of genetic data generation. Thousands of genomes or exomes are sequenced around the world. It is only a matter of time if the vision in sequencing the genome for every patient comes true. Therefore new algorithms needs to be invented to deal with the new flood of genetic information.
 
 Recently the institute of [Institute for Medical Genetics and Human Genetics](http://genetik.charite.de/) start sequencing whole-genomes of patients to find out the causative mutation of their genetic disease. Therefore our computational biology groups developed (and still inventing new) algorithms and combines them with the [Human Phenotype Ontology](http://human-phenotype-ontology.org/) to create tools which efficiently finds the causative mutation.
 
