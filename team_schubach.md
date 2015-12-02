@@ -31,3 +31,7 @@ See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wM
 
 	Phone: +49/30/450 569129
 	Email: max.schubach at charite.de
+
+## Open Master's theses
+
+* [Genome variant simulator](master_simulator.html)
