@@ -234,7 +234,7 @@ entries:
       platform: all
       product: all
       version: all
-      items:
+      item:
         - title: Members
           url: /team.html
           audience: writers, designers
