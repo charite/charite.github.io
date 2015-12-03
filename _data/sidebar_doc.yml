@@ -243,7 +243,9 @@ entries:
           version: all
           thirdlevel:
             - title: Max Schubach
-              url: /team_schubach.html
+              platform: all
+              product: all
+              version: all
 
         - title: Alumni
           url: /team_alumni.html
