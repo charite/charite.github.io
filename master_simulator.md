@@ -1,8 +1,6 @@
 ---
-title: Open Master's thesis - Genome variant simulator
+title: Open Masters thesis - Genome variant simulator
 ---
-
-# Open Master's thesis - Genome variant simulator
 
 The lower cost of of next-generation sequencing starts a new area of genetic data generation. Thousands of genomes or exomes are sequenced around the world. It is only a matter of time if the vision in sequencing the genome for every patient comes true. Therefore new algorithms needs to be invented to deal with the new flood of genetic information.
 
