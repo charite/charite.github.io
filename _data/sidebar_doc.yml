@@ -241,7 +241,7 @@ entries:
           platform: all
           product: all
           version: all
-          items: 
+          thirdlevel: 
           - title: Max Schubach
             url: /team_schubach.html
             audience: writers, designers
