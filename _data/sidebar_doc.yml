@@ -242,10 +242,17 @@ entries:
           product: all
           version: all
           thirdlevel:
-            - title: Max Schubach
+            - title: Member pages
               platform: all
               product: all
               version: all
+              thirdlevelitems: 
+              - title: Max Schubach
+                platform: all
+                product: all
+                version: all
+                url: /team_schubach.html
+
 
         - title: Alumni
           url: /team_alumni.html
