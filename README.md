@@ -13,3 +13,6 @@ It is based on [tom johnson's theme](https://github.com/tomjohnson1492/documenta
 # Things that break the search function
 
  - tab characters
+
+
+Please read [this documentation](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_search_configuration.html)!
