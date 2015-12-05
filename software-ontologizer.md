@@ -11,7 +11,7 @@ title: The Ontologizer
 
 
 A number of methods have been developed to analyze microarray and other high-throughput data derived from measurements of hundreds or thousands of genes or proteins. Depending on the method, the results of analysis consist of a list of many differentially regulated genes or a partitioning of many or all of the genes in the data set into clusters (groups) that putatively share some functionally relevant characteristic. Among the many uses to which the Gene Ontology (GO) has been put is to provide a summary of such lists of genes/proteins according to functional role, biochemical reaction, or location of the gene product in the cell.
-The first version of the Ontologizer has been completely redesigned to provide a versatile WebStart or desktop application for the GO term enrichment analysis whose user interface utilizes [Eclipse*s](http://www.eclipse.org/) Standard Widget Toolkit. It supports not only the standard approach to GO term enrichment analysis but also our parent-child method as described by Grossmann, topology based methods as described by Alexa and our new model-based approach
+The first version of the Ontologizer has been completely redesigned to provide a versatile WebStart or desktop application for the GO term enrichment analysis whose user interface utilizes [Eclipse's](http://www.eclipse.org/) Standard Widget Toolkit. It supports not only the standard approach to GO term enrichment analysis but also our parent-child method as described by Grossmann, topology based methods as described by Alexa and our new model-based approach
 
 Following analysis with one of the above methods and optionally a multiple-testing correction procedure, the Ontologizer rows of terms together with their p-values or marginal probabilities, annotation counts and other information. Relevance of a term is indicated by color coding according to the sub ontology to which the term belongs, whereby the intensity of the color correlates with the maginitude of relevance.
 
@@ -148,69 +148,69 @@ NCBI's Gene Expression Omnibus (GEO) database is a repository of thousands of mi
 The following code demonstrates how to use R/Bioconductor to download and analyze datasets from the NCBI GEO database and to create study and population sets from them.
 
 
-	#Fetch data and create study/population datasets for the Ontologizer
+    #Fetch data and create study/population datasets for the Ontologizer
 
-	library(Biobase)
-	library(GEOquery)
-	library(limma)
-
-
-	dataset.name <- "GDS2821"
-	gds <- getGEO(dataset.name,destdir=".")
-	#gds <- getGEO(filename = system.file("GDS2860.soft.gz",package = "GEOquery"))
-	eset <- GDS2eSet(gds,do.log2=TRUE)
-	## extract affymetrix IDs
-	ids<-rownames(exprs(eset))
+    library(Biobase)
+    library(GEOquery)
+    library(limma)
 
 
-	## Extract phenotypic information
-	## Use gsub to simplify the names (makes it easier to define factors)
-	state <- Columns(gds)$disease.state
-	state <- gsub("Parkinson's disease","parkinson",state)
-	
-	## Define the factors for the statistical analysis
-	f <- factor(state)
-	design <- model.matrix(~0+f)
-	contrast.matrix<-makeContrasts(fparkinson-fcontrol,levels=design)
-	
-	## Get the platform name and check that we got data
-	platform<-as.character(Meta(gds)$platform)
-	print(paste("Platform",platform,"contains ",length(ids),"spots"))
-	
-	## Retrieve the platform information.
-	gpl.name <- paste(platform,".soft",sep="")
-	if (file.exists(gpl.name)) {
-	  gpl<-getGEO(filename=gpl.name,destdir=".")
-	} else {
-	  gpl<-getGEO(platform,destdir=".")
-	}
-	
-	## This is the correspondence between the
-	## affymetrix IDs and the gene symbol
-	mapping <- Table(gpl)[,c("ID","Gene.Symbol")]
-	
-	### t-test
-	fit<-lmFit(eset,design)
-	fit2<-contrasts.fit(fit,contrast.matrix)
-	fit2<-eBayes(fit2)
-	
-	## Adjust for multiple testing
-	p.values<-fit2$p.value
-	p.BH <- p.adjust(p.values,method="BH")
-	
-	# get the indices of all significant p values
-	ord<-order(p.val)
-	ord.sign<-subset(ord,p.val[ord]<0.1)
-	
-	## check results
-	mapping[ord.sign,]
-	
-	## Write study set
-	studyset.name = paste("study",dataset.name,".txt",sep="")
-	write.table(mapping[ord.sign,2],file=studyset.name,col.names=F,row.names=F,quote=F)
-	
-	pop.name = paste("population",platform,"txt",sep="")
-	write.table(mapping[,2],col.names=F,row.names=F,quote=F,file=pop.name)
+    dataset.name <- "GDS2821"
+    gds <- getGEO(dataset.name,destdir=".")
+    #gds <- getGEO(filename = system.file("GDS2860.soft.gz",package = "GEOquery"))
+    eset <- GDS2eSet(gds,do.log2=TRUE)
+    ## extract affymetrix IDs
+    ids<-rownames(exprs(eset))
+
+
+    ## Extract phenotypic information
+    ## Use gsub to simplify the names (makes it easier to define factors)
+    state <- Columns(gds)$disease.state
+    state <- gsub("Parkinson's disease","parkinson",state)
+    
+    ## Define the factors for the statistical analysis
+    f <- factor(state)
+    design <- model.matrix(~0+f)
+    contrast.matrix<-makeContrasts(fparkinson-fcontrol,levels=design)
+    
+    ## Get the platform name and check that we got data
+    platform<-as.character(Meta(gds)$platform)
+    print(paste("Platform",platform,"contains ",length(ids),"spots"))
+    
+    ## Retrieve the platform information.
+    gpl.name <- paste(platform,".soft",sep="")
+    if (file.exists(gpl.name)) {
+      gpl<-getGEO(filename=gpl.name,destdir=".")
+    } else {
+      gpl<-getGEO(platform,destdir=".")
+    }
+    
+    ## This is the correspondence between the
+    ## affymetrix IDs and the gene symbol
+    mapping <- Table(gpl)[,c("ID","Gene.Symbol")]
+    
+    ### t-test
+    fit<-lmFit(eset,design)
+    fit2<-contrasts.fit(fit,contrast.matrix)
+    fit2<-eBayes(fit2)
+    
+    ## Adjust for multiple testing
+    p.values<-fit2$p.value
+    p.BH <- p.adjust(p.values,method="BH")
+    
+    # get the indices of all significant p values
+    ord<-order(p.val)
+    ord.sign<-subset(ord,p.val[ord]<0.1)
+    
+    ## check results
+    mapping[ord.sign,]
+    
+    ## Write study set
+    studyset.name = paste("study",dataset.name,".txt",sep="")
+    write.table(mapping[ord.sign,2],file=studyset.name,col.names=F,row.names=F,quote=F)
+    
+    pop.name = paste("population",platform,"txt",sep="")
+    write.table(mapping[,2],col.names=F,row.names=F,quote=F,file=pop.name)
  
 
 ## Webstart
@@ -227,7 +227,7 @@ For users, webstart means that the webbrowser will automatically download and us
 
 With some combinations of debian linux and firefox, we have noticed a problem with the Ontologizer finding the libraries needed to allow browsing of GO terms and the show the HTML format of the help system. If you notice this problem, it may help to set the variable MOZILLA_FIVE_HOME in the file /etc/environment as follows:
 
-	MOZILLA_FIVE_HOME=/usr/lib/xulrunner and to install the latest version of the packages "xulrunner" and "libxul-dev" with apt-get or aptitude.
+    MOZILLA_FIVE_HOME=/usr/lib/xulrunner and to install the latest version of the packages "xulrunner" and "libxul-dev" with apt-get or aptitude.
 
 
 The Ontologizer should start properly with all common Windows browsers (we have tested it with IE6, IE7 and Firefox).
@@ -245,12 +245,12 @@ In order to run the application, you need to have the proper SWT-jar as well. Th
 
 Once you have downloaded the ontologizer.jar file and located the swt.jar file within the downloaded SWT archive you can start Ontologizer by typing (on Linux)
 
-	java -Xmx1G -cp swt.jar:ontologizer-gui-with-dependencies.jar ontologizer.gui.swt.Ontologizer
-	
+    java -Xmx1G -cp swt.jar:ontologizer-gui-with-dependencies.jar ontologizer.gui.swt.Ontologizer
+    
 or by typing (on Windows)
 
-	java -XmX1G -cp swt.jar;ontologizer-gui-with-dependencies.jar ontologizer.gui.swt.Ontologizer
-	
+    java -XmX1G -cp swt.jar;ontologizer-gui-with-dependencies.jar ontologizer.gui.swt.Ontologizer
+    
 in the command line, assuming that both swt.jar and ontologizer.jar files are present in the current directory.On MacOSX you may have to add -XstartOnFirstThread, -d32 or both before the -cp argument, depending on the SWT version you have just downloaded.
 
 
@@ -261,21 +261,21 @@ A possible more recent version of the command line utility is available from our
 
 Ontologizer is a Java-Application and needs to be started via the 'java' command and be invoked with a plenty of arguments. All possible command arguments can be viewed via the --help argument. E.g. java -jar Ontologizer.jar --help. Here is a full list of options:
 
-	Short Option	Long Option	Explanation
-	-m	--mtc	Specifies the MTC method to use. Possible values are: "Bonferroni" (default), "None", "Westfall-Young-Single-Step"
-	-c	--calculation	Specifies the calculation method to use. Possible values are: "Parent-Child-Union", "Parent-Child-Intersection", "Term-For-Term" (default). For a full list, consult the output of the -h option.
-	-a	--association	File containing associations from genes to GO terms. Required
-	-d	--dot	For every studyset analysis write out an additional .dot file (GraphViz) containing the GOTerm graph with significant nodes. The optional argument in range between 0 and 0.5 specifies the maximum level on which a term is considered as significantly enriched. By appending a GO Term identifier (separated by a comma) the output is restriced to the subgraph originating at this GO Term.
-	-f	--filter	Filter the gene names by appling rules in a given file (currently only mapping supported).
-	-g	--go	Path to gene_ontology_edit.obo file (Required)
-	-h	--help	Shows this help
-	-i	--ignore	Ignore genes to which no association exist within the calculation.
-	-n	--annotation	Create an additional file per study set which contains the annotations.
-	-o	--outdir	Specfies the directory in which the results will be placed.
-	-p	--population	File containing genes within the population. Required
-	-r	--resamplingsteps	Specifies the number of steps used in resampling based MTCs
-	-s	--studyset	File of the study set or a directory containing study set files. Required
-	-v	--version	Shows version information and exits
+    Short Option    Long Option    Explanation
+    -m    --mtc    Specifies the MTC method to use. Possible values are: "Bonferroni" (default), "None", "Westfall-Young-Single-Step"
+    -c    --calculation    Specifies the calculation method to use. Possible values are: "Parent-Child-Union", "Parent-Child-Intersection", "Term-For-Term" (default). For a full list, consult the output of the -h option.
+    -a    --association    File containing associations from genes to GO terms. Required
+    -d    --dot    For every studyset analysis write out an additional .dot file (GraphViz) containing the GOTerm graph with significant nodes. The optional argument in range between 0 and 0.5 specifies the maximum level on which a term is considered as significantly enriched. By appending a GO Term identifier (separated by a comma) the output is restriced to the subgraph originating at this GO Term.
+    -f    --filter    Filter the gene names by appling rules in a given file (currently only mapping supported).
+    -g    --go    Path to gene_ontology_edit.obo file (Required)
+    -h    --help    Shows this help
+    -i    --ignore    Ignore genes to which no association exist within the calculation.
+    -n    --annotation    Create an additional file per study set which contains the annotations.
+    -o    --outdir    Specfies the directory in which the results will be placed.
+    -p    --population    File containing genes within the population. Required
+    -r    --resamplingsteps    Specifies the number of steps used in resampling based MTCs
+    -s    --studyset    File of the study set or a directory containing study set files. Required
+    -v    --version    Shows version information and exits
 
 Instructions for Running the Ontologizer
 
@@ -298,11 +298,11 @@ In addition, you can specify a GO Term ID, after the floating-point value (separ
 Some sample datasets and population sets can be downloaded from this page.
 To perform parent-child analysis using Westphal-Young MTC on the Yeast data set from the tutorial page and display the results using dot, enter the following command:
 
-	java -jar Ontologizer.jar -a gene_association.sgd -g gene_ontology.obo -s study/4hourSMinduced.txt -p population.txt -c Parent-Child-Union -m Westfall-Young-Single-Step -d 0.05 -r 1000
+    java -jar Ontologizer.jar -a gene_association.sgd -g gene_ontology.obo -s study/4hourSMinduced.txt -p population.txt -c Parent-Child-Union -m Westfall-Young-Single-Step -d 0.05 -r 1000
 The corresponding files must be in the current directory (or their full path must be indicated). To create a PNG image with the result, enter
 
-	dot -Tpng view-4hourSMinduced-Parent-Child-Westfall-Young-Single-Step.dot -oExample.png
-	
+    dot -Tpng view-4hourSMinduced-Parent-Child-Westfall-Young-Single-Step.dot -oExample.png
+    
 The corresponding graphic should look something like this:
 ![Dot Example](images/Example.png)
 
