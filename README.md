@@ -9,3 +9,7 @@
 #Theme
 
 It is based on [tom johnson's theme](https://github.com/tomjohnson1492/documentation-theme-jekyll)
+
+# Things that break the search function
+
+ - tab characters
