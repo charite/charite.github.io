@@ -2,4 +2,4 @@
 title: Sebastian Köhler, Dr. rer. nat.
 ---
 
-Please see Homepage http://drseb.github.io
+Please see [Homepage at http://drseb.github.io](http://drseb.github.io)
