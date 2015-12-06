@@ -248,12 +248,58 @@ entries:
               product: all
               version: all
               thirdlevelitems: 
+              - title: Prof. Robinson
+                url: /team_robinson.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
+              - title: Peter Krawitz
+                url: /team_krawitz.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
+              - title: Sebastian Köhler
+                url: /team_koehler.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
+              - title: Marten Jäger
+                url: /team_jaeger.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
+              - title: Peter Hansen
+                url: /team_hansen.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
+              - title: Leon Kuchenbecker
+                url: /team_kuchenbecker.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
               - title: Max Schubach
                 url: /team_schubach.html
                 audience: writers, designers
                 platform: all
                 product: all
                 version: all
+              - title: Layal Abo-Kayal
+                url: /team_abokayal.html
+                audience: writers, designers
+                platform: all
+                product: all
+                version: all
+
+
+
+
 
 
         - title: Alumni
