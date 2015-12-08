@@ -24,4 +24,6 @@ Die Bioinformatik bedient sich der Informatik, Mathematik, Statistik und EDV, um
 
 #Material
 
-Skripte und Übungsblätter [here](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II).
+Übungsblatt für Donnerstag den 10. Dezember 2015=Übungsblatt 4 (neu!)
+
+Skripte und Übungsblätter [hier](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II).
