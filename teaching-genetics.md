@@ -27,3 +27,5 @@ Die Bioinformatik bedient sich der Informatik, Mathematik, Statistik und EDV, um
 Übungsblatt für Donnerstag den 10. Dezember 2015=Übungsblatt 4 (neu!)
 
 Skripte und Übungsblätter [hier](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II).
+
+* Nussinov-Algorithmus (Ergänzung zur Übung vom 17.12.15): [Nussinov-Algorithmus](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/Nussinov.pdf).
