@@ -257,7 +257,7 @@ in the command line, assuming that both swt.jar and ontologizer.jar files are pr
 ## Command Line
 This how-to describes the command-line version of the Ontologizer. This version can be used for batch processing or pipelines. Most general users will prefer the Java WebStart version, though. At first, download the .jar file.
 
-A possible more recent version of the command line utility is available from our [Hudson installation](http://compbio.charite.de/hudson/job/ontologizer.cmd/lastSuccessfulBuild/artifact/dist/cmdline/)
+A possible more recent version of the command line utility is available [from here](https://github.com/charite/charite.github.io/tree/master/media/ontologizer)
 
 Ontologizer is a Java-Application and needs to be started via the 'java' command and be invoked with a plenty of arguments. All possible command arguments can be viewed via the --help argument. E.g. java -jar Ontologizer.jar --help. Here is a full list of options:
 
