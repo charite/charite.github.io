@@ -6,7 +6,12 @@ title: Genomics
 
 This Genomics course is being offered in the FU Master's Program in Bioinformatics (CUB848). The lectures will take place on Tuesdays on 14-16h and are accompanied by recitals (Übungen) on Thursday from 8-10h (cum multo tempore, i.e., we will begin punctually at 8:30h). Lecture slides and handouts for the recitals will be made available from this webpage.
 
-Teaching material is located [here](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching).
+
+#Schedule 2016
+* Lecture 11 (Jan 5, 2016). RNA-seq 2
+* Lecture 12 (Jan 12, 2016). ChIP-seq 1
+* Lecture 13 (Jan 19, 2016). ChIP-seq 2
+* Lecture 24 (Jan 26, 2016). Chromosomal Conformation Capture (CCC) technologies.
 
 
 #Lecture Slides
