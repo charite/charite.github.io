@@ -24,6 +24,8 @@ Die Bioinformatik bedient sich der Informatik, Mathematik, Statistik und EDV, um
 
 ##Klausur
 Am Donnerstag, den 4. Februar 2015
+Zeit: 8:00 - 10:00
+Ort: Hs 001 (Hörsaal 1) in der Arnimallee 3
 
 
 #Material
