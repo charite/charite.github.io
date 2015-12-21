@@ -30,9 +30,6 @@ Am Donnerstag, den 4. Februar 2015
 
 Übungsblatt für Donnerstag den 10. Dezember 2015=Übungsblatt 4 (neu!)
 
-#Skripte und Übungsblätter [hier](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II)
-
-
 ##Übungsblätter
 
 * [Übung 1](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/Genetik-Uebung-1.pdf).
@@ -49,8 +46,8 @@ Am Donnerstag, den 4. Februar 2015
 * [Vorlesung 1: Chromosomen](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/01Chromosomen.pdf).
 * [Vorlesung 2: Das Genome](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/02Genom.pdf).
 * [Vorlesung 3: Aufbau des humanen Genoms](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/03GenomAufbau.pdf).
-* [Vorlesung 4: Vererbungsmuster und Einführung in die Populationsgenetik](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/04Population.pdf).
-* [Vorlesung 5: Das Hary-Weinberg Gesetz](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/05hardyweinberg.pdf).
+* [Vorlesung 4: Vererbungsmuster und Einführung in die Populationsgenetik](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/04population.pdf).
+* [Vorlesung 5: Das Hardy-Weinberg Gesetz](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/05hardyweinberg.pdf).
 * [Vorlesung 6: Kopplungsungleichgewicht (LD)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/06linkageDisequilibrium.pdf).
 * [Vorlesung 7: Genetische Kartierung und lod-Score-Analyse](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/07kartierung-lod-score.pdf).
 * [Vorlesung 8: Polygene Krankheiten und Assoziationsanalyse] (https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/08komplex-association.pdf).
