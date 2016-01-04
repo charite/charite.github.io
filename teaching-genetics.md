@@ -24,8 +24,9 @@ Die Bioinformatik bedient sich der Informatik, Mathematik, Statistik und EDV, um
 
 ##Klausur
 Am Donnerstag, den 4. Februar 2015
-Zeit: 8:00 - 10:00
-Ort: Hs 001 (Hörsaal 1) in der Arnimallee 3
+Zeit: 10:00 - 12:00
+Ort: Große Hörsaal in der Physik (Raum 0.3.12, Arnimallee 14)
+
 
 
 #Material
@@ -41,6 +42,7 @@ Ort: Hs 001 (Hörsaal 1) in der Arnimallee 3
 * [Übung 5](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/Genetik-Uebung-5.pdf).
 * [Übung: RNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/Genetik-RNA.pdf).
 * Nussinov-Algorithmus (Ergänzung zur Übung vom 17.12.15): [Nussinov-Algorithmus](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/Nussinov.pdf).
+* [Übung: miRNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/Genetik-Uebung-miRNA.pdf).
 
 ##Vorlesungsfolien
 
@@ -54,6 +56,7 @@ Ort: Hs 001 (Hörsaal 1) in der Arnimallee 3
 * [Vorlesung 7: Genetische Kartierung und lod-Score-Analyse](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/07kartierung-lod-score.pdf).
 * [Vorlesung 8: Polygene Krankheiten und Assoziationsanalyse] (https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/08komplex-association.pdf).
 * [Vorlesung 9: RNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/09rna.pdf).
+* [Vorlesung 10: miRNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/miRNA-bioinformatics.pdf).
 
 
 ## Termine
