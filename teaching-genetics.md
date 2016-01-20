@@ -58,7 +58,7 @@ Ort: Große Hörsaal in der Physik (Raum 0.3.12, Arnimallee 14)
 * [Vorlesung 8: Polygene Krankheiten und Assoziationsanalyse] (https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/08komplex-association.pdf).
 * [Vorlesung 9: RNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/09rna.pdf).
 * [Vorlesung 10: miRNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/miRNA-bioinformatics.pdf).
-* [Vorlesung 11: Mutationen](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/mutationen.pdf).
+* [Vorlesung 11: Mutationen](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/mutation.pdf).
 * [Vorlesung 12: Transkription](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/11Genregulation-Transkription.pdf).
 
 
