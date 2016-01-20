@@ -8,9 +8,6 @@ This Genomics course is being offered in the FU Master's Program in Bioinformati
 
 
 #Schedule 2016
-* Lecture 11 (Jan 5, 2016). RNA-seq 2
-* Lecture 12 (Jan 12, 2016). ChIP-seq 1
-* Lecture 13 (Jan 19, 2016). ChIP-seq 2
 * Lecture 24 (Jan 26, 2016). Chromosomal Conformation Capture (CCC) technologies.
 
 
@@ -26,6 +23,8 @@ This Genomics course is being offered in the FU Master's Program in Bioinformati
 * [Lecture 9: WGS and structural variation (2)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/MoDIL.pdf).
 * [Lecture 10: RNA-seq (1)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/rnaseq1.pdf).
 * [Lecture 11: RNA-seq (2): January 5, 2016](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/rnaseq2.pdf).
+* [Lecture 12: ChIP-seq (1)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/chipseq.pdf).
+* [Lecture 13: ChIP-seq (2)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/chipseq2.pdf).
 
 
 #Exercises
