@@ -25,11 +25,13 @@ This Genomics course is being offered in the FU Master's Program in Bioinformati
 * [Lecture 11: RNA-seq (2): January 5, 2016](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/rnaseq2.pdf).
 * [Lecture 12: ChIP-seq (1)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/chipseq.pdf).
 * [Lecture 13: ChIP-seq (2)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/chipseq2.pdf).
+* [Lecture 14: CCC](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/ccc.pdf).
 
 
 #Exercises
 * [Exercise 1 (NGS Methodology)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/Genomics-Exercise-1.pdf).
 * [Exercise 2 (Genome Assembly)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/Genomics-Exercise-2.pdf).
+* [Exercise X (ChIP-seq, PCA)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/Genomics-Exercise-ChIP-seq.pdf).
 
 
 #Additional Material
