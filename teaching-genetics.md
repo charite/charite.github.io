@@ -62,6 +62,3 @@ Ort: Große Hörsaal in der Physik (Raum 0.3.12, Arnimallee 14)
 * [Vorlesung 12: Transkription](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/11Genregulation-Transkription.pdf).
 * [Vorlesung 13: NGS und Exomsequenzierung](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/12ExomSequenzierung.pdf).
 
-
-## Termine
-* Vorlesung 12 (26.01.2015): Einführung in NGS und Exomsequenzierung
