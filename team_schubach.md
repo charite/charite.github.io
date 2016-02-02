@@ -12,7 +12,7 @@ title: Max Schubach,  M.Sc. Bioinformatics
 
 ## Selected publications
 
-See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wMAAAA) for a complete list.
+See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wMAAAAJ) for a complete list.
 
 * Smedley D, Jacobsen JOB, Jäger M, Köhler S, Holtgrewe M, __Schubach M__, Siragusa E, Zemojtel T, Buske OJ, Washington NL, Bone WP, Haendel MA, Robinson PN. Next-generation diagnostics and disease-gene discovery with the Exomiser. *Nature protocols*. 2015;10(12).
 * Glöckle N, Kohl S, Mohr J, Scheurenbrand T, Sprecher A, Weisschuh N, Bernd A, Rudolph G, __Schubach M__, Poloschek C, Zrenner E, Biskup S, Berger W, Wissinger B, Neidhardt J. Panel-based Next Generation Sequencing as a reliable and efficient technique to detect mutations in unselected patients with retinal dystrophies. *European Journal of Human Genetics*. 2013.
