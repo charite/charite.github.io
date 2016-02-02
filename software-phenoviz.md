@@ -7,8 +7,8 @@ PhenogramViz is a tool that automatically analyses and visualizes gene-to-phenot
 ![PhenoViz](/images/phenoviz.png)
 
 
-##Video Tutorials
-
+Video Tutorials
+------------
 We have a [Youtube-Channel](https://www.youtube.com/channel/UC-hLx_KWD5zlbf7VnV3-fBA) with several tutorial videos, e.g.
 
  * How to install PhenogamViz: [Video](https://www.youtube.com/watch?v=g4cF_Xo0eUU)
@@ -21,13 +21,13 @@ We have a [Youtube-Channel](https://www.youtube.com/channel/UC-hLx_KWD5zlbf7VnV3
  
 Please not that you have to turn on the video captions in Youtube. There is no sound in these videos!
  
-##Usage
-
+Usage
+------------
 Download and install [Cytoscape Version 3.1.0.](http://www.cytoscape.org/download.php) (PhenogramViz is not compatible to earlier versions of Cytoscape)
 Download the jar-file (below) and Select App->Install from file and point the program to the downloaded jar-file.
  
-##Example data
-
+Example data
+------------
 PhenogramViz requires two datasets. At first you have to define the the symptoms of the patient (i.e. a set of HPO-term-IDs). 
 Second of all you have to define the set of copy-number variant regions in the patients genome. 
 
@@ -39,24 +39,24 @@ Second of all you have to define the set of copy-number variant regions in the p
     + Load lists of genes
 
 
-##Download
-
+Download
+------------
 Current version: [PhenogramViz (0.1.3)](http://compbio.charite.de/tl_files/groupmembers/koehler/phenogramviz/jar/phenogramviz-0.1.3.jar) - This jar-file can then be installed in Cytoscape.
  
 Previous: [PhenogramViz (0.1.2)](http://compbio.charite.de/tl_files/groupmembers/koehler/phenogramviz/jar/phenogramviz-0.1.2.jar).
  
-##Citation
-
+Citation
+------------
 Please cite [this paper](http://jmg.bmj.com/content/51/11/766) when using PhenogramViz!
 
  
  
-##Phenotype data
-
+Phenotype data
+------------
 The cross species phenotype resource (called uberpheno) has been developed in the context of the [Monarch Initiative](http://monarchinitiative.org/).
  
-##Data from paper
-
+Data from paper
+------------
 The data used in the paper can be [found here](http://compbio.charite.de/tl_files/groupmembers/koehler/phenogramviz/data/).
  
 This contains the uberpheno ontology (crossSpeciesPheno.obo), the gene-phenotype annotations (HSgenes_crossSpeciesPhenoAnnotation.txt), and the used CNVs (testedBenignCnvs.txt, testedPathogenicCnvs.txt). For the pathogenic CNV we also show the associated HPO-terms.
