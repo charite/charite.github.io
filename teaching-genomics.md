@@ -2,16 +2,18 @@
 title: Genomics
 ---
 
-#Genomics 2014/2015
-
+Genomics 2014/2015
+======================
 This Genomics course is being offered in the FU Master's Program in Bioinformatics (CUB848). The lectures will take place on Tuesdays on 14-16h and are accompanied by recitals (Übungen) on Thursday from 8-10h (cum multo tempore, i.e., we will begin punctually at 8:30h). Lecture slides and handouts for the recitals will be made available from this webpage.
 
 
-#Schedule 2016
+Schedule 2016
+======================
 * Lecture 24 (Jan 26, 2016). Chromosomal Conformation Capture (CCC) technologies.
 
 
-#Lecture Slides
+Lecture Slides
+======================
 * [Lecture 1: NGS methodology](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/NGS-methodology.pdf).
 * [Lecture 2: Genome assembly (1)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/genome-assembly1.pdf).
 * [Lecture 3: Genome assembly (2)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/genome-assembly2.pdf).
@@ -28,13 +30,16 @@ This Genomics course is being offered in the FU Master's Program in Bioinformati
 * [Lecture 14: CCC](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/ccc.pdf).
 
 
-#Exercises
+Exercises
+======================
 * [Exercise 1 (NGS Methodology)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/Genomics-Exercise-1.pdf).
 * [Exercise 2 (Genome Assembly)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/Genomics-Exercise-2.pdf).
 * [Exercise X (ChIP-seq, PCA)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/Genomics-Exercise-ChIP-seq.pdf).
 
 
-#Additional Material
+Additional Material
+======================
 * [Practical exercise: G/C content and Read Depth in WGS CNV analysis](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Genomics/CNV-Exercise.pdf).
 
-#Final Exam
+Final Exam
+======================
