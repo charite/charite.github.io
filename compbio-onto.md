@@ -5,6 +5,7 @@ title: Ontologies
 
 In the last years ontologies have become an important tool for knowledge representation in biological sciences, the most prominent being the Gene Ontology. In our group we develop new algorithms for data analysis using ontologies. We also developed a new ontology called the Human Phenotype Ontology, which is now applied in several projects in our group as well as elsewhere.
 
+
 Gene Ontology
 ------------
 
