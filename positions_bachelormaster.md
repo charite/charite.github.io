@@ -1,7 +1,7 @@
 ---
-title: Students
+layout: page
+title: Bachelor/Master
 ---
-
 
 >The group for computational biology and bioinformatics at the Institute for Medical Genetics at the Charité offers challenging internships, bachelor and masterthesis for interested students of Computer Sciences and Bioinformatics.
 
@@ -24,11 +24,12 @@ Application of the HPO to different fields in the life science domain, especiall
 
 Possible projects are:
 
- * Improve the user-interfaces
  * New algorithmic ideas to be implemented/tested to improve the performance of Disease Gene Prediction
+ * Exploration of the common disease annotations of HPO
+ * Improve the user-interfaces
  
  
- >All software projects deal with topics that are also of high interest to the research community. Commited students may be able to publish their work in scientific journals. For the projects described above interested students should contact Peter Robinson, Sebastian Köhler and Peter Krawitz. Ideally, the student should already have good programming skills in Perl, Java, C++ or comparable programming languages.
+ >All software projects deal with topics that are also of high interest to the research community. Commited students may be able to publish their work in scientific journals. For the projects described above interested students should contact Peter Robinson, Sebastian Köhler and Peter Krawitz. Ideally, the student should already have good programming skills in Java (!) and should have some experience with Perl, R, Matlab, C++ or comparable programming languages.
 
 ## Master thesis: Genome variant simulator
 
@@ -51,3 +52,6 @@ __Preconditions__
 3. To have an interest in working on larger software projects.
 
 Contact: [Max Schubach](team_schubach.html)
+
+
+    

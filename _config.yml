@@ -12,7 +12,6 @@ site_title: Computational Biology @ Charité Berlin
 google_analytics: UA-62837903-3
 github_editme_path: charite/charite.github.io/edit/master
 
-#github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages
 # don't use a slash before or after the above path. here's how this url gets written out in page.html: https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}
 # variables
 
