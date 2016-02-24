@@ -43,3 +43,5 @@ Additional Material
 
 Final Exam
 ======================
+* Final exam (1st round); date: Feb 25, 2016; time: 14:00; place: T9 Gr.HS
+* Final exam (2nd round); date: Apr 14, 2016; time: 14:15; place: T9 Gr.HS
