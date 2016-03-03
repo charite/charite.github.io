@@ -19,4 +19,16 @@ Our postal address is:
     D-13353 Berlin
 
 We have an email-list at **compbio@charite.de**.
+
+Telephone:
+
+ Peter Robinson:
+ * 0049 30 450 566 006
+
+Offices: 
+* 0049 30 450 569 135
+* 0049 30 450 569 048
+* 0049 30 450 569 129
+
+
     
