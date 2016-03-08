@@ -56,7 +56,7 @@ Vorlesungsfolien
 * [Vorlesung 5: Das Hardy-Weinberg Gesetz](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/05hardyweinberg.pdf).
 * [Vorlesung 6: Kopplungsungleichgewicht (LD)](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/06linkageDisequilibrium.pdf).
 * [Vorlesung 7: Genetische Kartierung und lod-Score-Analyse](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/07kartierung-lod-score.pdf).
-* [Vorlesung 8: Polygene Krankheiten und Assoziationsanalyse] (https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/08komplex-association.pdf).
+* [Vorlesung 8: Polygene Krankheiten und Assoziationsanalyse](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/08komplex-association.pdf).
 * [Vorlesung 9: RNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/09rna.pdf).
 * [Vorlesung 10: miRNA](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/miRNA-bioinformatics.pdf).
 * [Vorlesung 11: Mutationen](https://github.com/charite/charite.github.io/tree/master/media/robinson/teaching/Molekulargenetik_II/mutation.pdf).
