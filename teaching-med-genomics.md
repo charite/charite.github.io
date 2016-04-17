@@ -2,9 +2,9 @@
 title: Medical Genomics
 ---
 
-Peter Robinson [email](mailto:peter.robinson@charite.de)
-Rosario Piro [email](mailto:‎r.piro@fu-berlin.de])
-Marten Jäger [email](mailto:marten.jaeger@charite.de)
+Peter Robinson [email](mailto:peter.robinson@charite.de)  
+Rosario Piro [email](mailto:‎r.piro@fu-berlin.de])  
+Marten Jäger [email](mailto:marten.jaeger@charite.de)  
 
 
 
@@ -27,12 +27,10 @@ Schedule
 ------------------
 The course will be held on Wednesdays starting on April 20, 2016. 
 
+* 20. April:  Introduction; Set up environment and introduction to exome analysis
+* 27. April: Quality Control; FASTQ, PHRED, Trimming
+* 4. May: Alignment and More Q/C; bwa, coverage, Q/C measures for alignment 
 
-| Date | Topic | Comment | 
-| ---- | ----- | ------  | 
-| 20. April | Introduction | Set up environment and introduction to exome analysis |
-| 27. April | Quality Control | FASTQ, PHRED, Trimming |
-| 4. May | Alignment and More Q/C | bwa, coverage, Q/C measures for alignment | 
 
 
 
