@@ -27,9 +27,9 @@ Schedule
 ------------------
 The course will be held on Wednesdays starting on April 20, 2016. 
 
-* 20. April:  Introduction; Set up environment and introduction to exome analysis
-* 27. April: Quality Control; FASTQ, PHRED, Trimming
-* 4. May: Alignment and More Q/C; bwa, coverage, Q/C measures for alignment 
+ * *20. April*:  Introduction; Set up environment and introduction to exome analysis
+ * *27. April*: Quality Control; FASTQ, PHRED, Trimming
+ * *4. May*: Alignment and More Q/C; bwa, coverage, Q/C measures for alignment 
 
 
 
