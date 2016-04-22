@@ -7,9 +7,9 @@ Genes are prioritised according to a variant score (predicted pathogenicity, rar
 
 Please refer to the original publication for more details:
 
-Walking the interactome for candidate prioritization in exome sequencing studies of Mendelian diseases
-Damian Smedley,Sebastian Kohler, Johanna Christina Czeschik,Joanna Amberger, Carol Bocchini, Ada Hamosh, Julian Veldboer,Tomasz Zemojtel, Peter N Robinson
-Bioinformatics (2014) 30 (22): 3215-3222.
+    Walking the interactome for candidate prioritization in exome sequencing studies of Mendelian diseases
+    Damian Smedley,Sebastian Kohler, Johanna Christina Czeschik,Joanna Amberger, Carol Bocchini, Ada Hamosh, Julian Veldboer,Tomasz Zemojtel, Peter N Robinson
+    Bioinformatics (2014) 30 (22): 3215-3222.
 
 ExomeWalker has been developed by our group and the Mouse Informatics Group at the Sanger Institute. 
 The online application is availble at [http://compbio.charite.de/ExomeWalker/](http://compbio.charite.de/ExomeWalker/)
