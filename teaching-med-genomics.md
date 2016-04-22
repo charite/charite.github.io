@@ -3,7 +3,7 @@ title: Medical Genomics
 ---
 
 Peter Robinson [email](mailto:peter.robinson@charite.de)  
-Rosario Piro [email](mailto:‎r.piro@fu-berlin.de])  
+Rosario Piro [email](mailto:r.piro@fu-berlin.de])  
 Marten Jäger [email](mailto:marten.jaeger@charite.de)  
 
 
