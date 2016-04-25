@@ -21,4 +21,4 @@ Please read [this documentation](http://idratherbewriting.com/documentation-them
 
 # How to contribute
 
-See [CONTRIBUTING.md](CONTRIBUTIN.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md)
