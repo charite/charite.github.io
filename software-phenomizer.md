@@ -11,3 +11,12 @@ and the disease match to each other. Further details can be found in the publica
 
 The software is [available here](http://compbio.charite.de/phenomizer).
 
+There is also a beta-version of Phenomizer-Orphanet available. Test it and give feedback here: [http://compbio.charite.de/phenomizer_orphanet](http://compbio.charite.de/phenomizer_orphanet).
+
+Phenomizer has been published here:
+
+    Clinical diagnostics in human genetics with semantic similarity searches in ontologies.
+    Köhler S, Schulz MH, Krawitz P, Bauer S, Dölken S, Ott CE, Mundlos C, Horn D, Mundlos S, Robinson PN.
+    Am J Hum Genet. 2009 Oct;85(4):457-64. doi: 10.1016/j.ajhg.2009.09.003.
+    
+
