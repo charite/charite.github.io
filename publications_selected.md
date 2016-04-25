@@ -4,7 +4,7 @@ title: Selected publications
 
 
 <ol class="bibliography">
-      
+  
 <li><span id="exomiser_natgenet"> Smedley D, Jacobsen JO, <b>Jäger M</b>, <b>Köhler S</b>, <b>Holtgrewe M</b>, <b>Schubach M</b>, Siragusa E, <b>Zemojtel T</b>, Buske OJ, Washington NL, Bone WP, Haendel MA, <b>Robinson PN</b>. (2015). Next-generation diagnostics and disease-gene discovery with the Exomiser. <i>Nature Protocols</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26562621">Link</a>  </li>
 <li><span id="natrevgenet"> Brookes AJ, <b>Robinson PN</b> (2015). Human genotype-phenotype databases: aims, challenges and opportunities. <i>Nature Reviews Genetics</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26553330">Link</a>  </li>  
 <li><span id="phenolyzer"> Yang H, <b>Robinson PN</b>, Wang K. (2015). Phenolyzer: phenotype-based prioritization of candidate genes for human diseases. <i>Nature Methods</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26192085">Link</a>  </li>
