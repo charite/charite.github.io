@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/charite/charite.github.io.svg?branch=master)](https://travis-ci.org/charite/charite.github.io)
+
 # Website for compbio
 
 ## How-To
@@ -16,3 +18,7 @@ It is based on [tom johnson's theme](https://github.com/tomjohnson1492/documenta
 
 
 Please read [this documentation](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_search_configuration.html)!
+
+# How to contribute
+
+See [CONTRIBUTING.md](CONTRIBUTIN.md)
