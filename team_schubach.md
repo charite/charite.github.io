@@ -34,4 +34,4 @@ See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wM
 
 ## Open Master's theses
 
-* [Genome variant simulator](teaching-studprojects.html)
+* [Genome variant simulator](positions_bachelormaster.html)
