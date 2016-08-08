@@ -16,5 +16,6 @@ title: Team (Alumni)
  - Dmitri Parkhomchuk
  - Dr. Sebastian Bauer 
  - Oliver Stolpe
- - Manuel Holgrewe
+ - Dr. Manuel Holgrewe
  - Verena Heinrich
+ - Dr. Zhu Na

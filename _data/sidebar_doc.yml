@@ -75,29 +75,8 @@ entries:
           product: all
           version: all
 
-        - title: BOQA
-          url: /software-boqa.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: PhenogramViz
-          url: /software-phenoviz.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
         - title: ExomeWalker
           url: /software-exomewalker.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Common Disease Network 
-          url: /software-cdn.html
           audience: writers, designers
           platform: all
           product: all
@@ -130,10 +109,6 @@ entries:
           platform: all
           product: all
           version: all
-
-
-
-
 
 
     - title: Teaching
@@ -289,20 +264,6 @@ entries:
       product: all
       version: all
       items:
-        - title: Postdocs
-          url: /positions_postdoc.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: PhD
-          url: /positions_phd.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
         - title: Bachelor/Master
           url: /positions_bachelormaster.html
           audience: writers, designers
