@@ -46,13 +46,6 @@ entries:
           version: all
 
 
-        - title: Ontologies
-          url: /compbio-onto.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
         - title: NGS
           url: /compbio-ngs.html
           audience: writers, designers
@@ -112,27 +105,6 @@ entries:
 
         - title: Exomiser
           url: /software-exomiser.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Human Phenotype Ontology
-          url: /software-hpo.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Ontologizer
-          url: /software-ontologizer.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Phenomizer
-          url: /software-phenomizer.html
           audience: writers, designers
           platform: all
           product: all
