@@ -15,22 +15,6 @@ We will sketch three projects, that could be dealt within the scope of a softwar
  * NGS data sets as well as array CGH  data sets generate a plethora of candidate mutation and copy number variation, that have to be validated using standard techniques. This requires the design of oligonucleotide primer sequences. The goal of this software internship is to further develop a pipeline, that generates for a given genomic position or interval the appropriate validation primer sequences.
 
 
-
-## Human Phenotype Ontology
-
-The Human Phenotype Ontology project requires new interfaces for exploring, visualising and improve the ontology. The student should develop Java-servlets for these tasks.
-
-Application of the HPO to different fields in the life science domain, especially for transferring knowledge from rare and genetic diseases to other fields.
-
-Possible projects are:
-
- * New algorithmic ideas to be implemented/tested to improve the performance of Disease Gene Prediction
- * Exploration of the common disease annotations of HPO
- * Improve the user-interfaces
- 
- 
- >All software projects deal with topics that are also of high interest to the research community. Commited students may be able to publish their work in scientific journals. For the projects described above interested students should contact Peter Robinson, Sebastian Köhler and Peter Krawitz. Ideally, the student should already have good programming skills in Java (!) and should have some experience with Perl, R, Matlab, C++ or comparable programming languages.
-
 ## Master thesis: Genome variant simulator
 
 The lower cost of of next-generation sequencing starts a new area of genetic data generation. Thousands of genomes or exomes are sequenced around the world. It is only a matter of time if the vision in sequencing the genome for every patient comes true. Therefore new algorithms needs to be invented to deal with the new flood of genetic information.
