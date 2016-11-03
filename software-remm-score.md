@@ -18,11 +18,13 @@ Download
 
 * Tabix file: [ReMM.v0.3.1.tsv.gz](http://remm.visze.de/files/ReMM.v0.3.1.tsv.gz)
 * Tabix index file: [ReMM.v0.3.1.tsv.gz.tbi](http://remm.visze.de/files/ReMM.v0.3.1.tsv.gz.tbi)
+* MD5 checksum: [ReMM.v0.3.1.md5](http://remm.visze.de/files/ReMM.v0.3.1.md5)
 
 **Version 0.3:**
 
 * Tabix file: [ReMM.v0.3.tsv.gz](http://remm.visze.de/files/ReMM.v0.3.tsv.gz)
 * Tabix index file: [ReMM.v0.3.tsv.gz.tbi](http://remm.visze.de/files/ReMM.v0.3.tsv.gz.tbi)
+* MD5 checksum: [ReMM.v0.3.md5](http://remm.visze.de/files/ReMM.v0.3.md5)
 
 Citation
 ------------
