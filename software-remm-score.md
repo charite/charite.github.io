@@ -2,7 +2,7 @@
 title: ReMM Score
 ---
 
-The Regulatory mendelian Mutation (ReMM) score was created for relevance prediction of variations (SNVs and small InDels) in the human genome (hg19) in terms of Mendelian diseases.
+The **Re**gulatory **M**endelian **M**utation (ReMM) score was created for relevance prediction of non-coding variations (SNVs and small InDels) in the human genome (hg19) in terms of Mendelian diseases.
  
 Usage
 ------------
@@ -12,8 +12,17 @@ If you want to use teh ReMM score together with the Genomiser, please have a loo
  
 Download
 ------------
-*Tabix file: [remmData.tsv.gz](ftp://ftp.sanger.ac.uk/pub/resources/software/exomiser/downloads/exomiser/remm/remmData.tsv.gz)
-* Tabix index file: [remmData.tsv.gz.tbi](ftp://ftp.sanger.ac.uk/pub/resources/software/exomiser/downloads/exomiser/remm/remmData.tsv.gz.tbi)
+* Changelog: [changelog.txt](http://remm.visze.de/files/changelog.txt)
+
+**Version 0.3.1:**
+
+* Tabix file: [ReMM.v0.3.1.tsv.gz](http://remm.visze.de/files/ReMM.v0.3.1.tsv.gz)
+* Tabix index file: [ReMM.v0.3.1.tsv.gz.tbi](http://remm.visze.de/files/ReMM.v0.3.1.tsv.gz.tbi)
+
+**Version 0.3:**
+
+* Tabix file: [ReMM.v0.3.tsv.gz](http://remm.visze.de/files/ReMM.v0.3.tsv.gz)
+* Tabix index file: [ReMM.v0.3.tsv.gz.tbi](http://remm.visze.de/files/ReMM.v0.3.tsv.gz.tbi)
 
 Citation
 ------------
