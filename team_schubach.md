@@ -22,7 +22,7 @@ See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wM
 
 ## Awards
 
-* Poster price at the Arbeitsgemeinschaft Gendiagnostik (AGD) Annual Meeting 2016 in Potsdam. Title: "Genomiser, a framework to identify Mendelian regulatory mutations"
+* Poster award at the Arbeitsgemeinschaft Gendiagnostik (AGD) Annual Meeting 2016 in Potsdam. Title: "Genomiser, a framework to identify Mendelian regulatory mutations"
 
 ## Contact
 
