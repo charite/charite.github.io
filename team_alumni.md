@@ -3,19 +3,19 @@ layout: page
 title: Team (Alumni)
 ---
 
-
+ - [Prof. Peter Robinson](https://robinsongroup.github.io/)
+ - [Dr. Sebastian Köhler](https://phenomics.github.io/)
  - Christian Rödelsperger
  - Duc Dang
- - Martin-Atta Mensah 
  - Patrick Booms
- - Marcel H Schulz
+ - Dr. Marcel H Schulz
  - Miriam Sandya Bauer
  - Sandra Appelt 
  - Martin Wettig 
  - Begoña Muñoz-Garcia
- - Dmitri Parkhomchuk
+ - Dr. Dmitri Parkhomchuk
  - Dr. Sebastian Bauer 
- - Oliver Stolpe
- - Dr. Manuel Holgrewe
- - Verena Heinrich
- - Dr. Zhu Na
+ - Oliver Stolpe (now at BIH CUBI)
+ - Dr. Manuel Holgrewe (now at BIH CUBI)
+ - Dr. Verena Heinrich (now at MPI for Molecular Genetics)
+ - Dr. Zhu Na (now at Columbia University)
