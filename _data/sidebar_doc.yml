@@ -29,7 +29,7 @@ entries:
           web: false
           frontmatter: true
 
-    - title: Computational Biology
+    - title: NGS
       audience: writers, designers
       platform: all
       product: all
