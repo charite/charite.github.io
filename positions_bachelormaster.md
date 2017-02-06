@@ -14,7 +14,7 @@ We will sketch three projects, that could be dealt within the scope of a softwar
  * After a sequencing run the raw data consists of millions of short sequence reads that have to be aligned to a reference sequence before further analysis. After the alignment, one is interested how well the genomic region of interest is covered by short reads. The goal of this software internship is the development of a automatized pipeline, that computes the coverage of the target region an further meaningful statistics of a sequencing run.
  * NGS data sets as well as array CGH  data sets generate a plethora of candidate mutation and copy number variation, that have to be validated using standard techniques. This requires the design of oligonucleotide primer sequences. The goal of this software internship is to further develop a pipeline, that generates for a given genomic position or interval the appropriate validation primer sequences.
 
-
+<!--
 ## Master thesis: Genome variant simulator
 
 The lower cost of of next-generation sequencing starts a new area of genetic data generation. Thousands of genomes or exomes are sequenced around the world. It is only a matter of time if the vision in sequencing the genome for every patient comes true. Therefore new algorithms needs to be invented to deal with the new flood of genetic information.
@@ -36,6 +36,6 @@ __Preconditions__
 3. To have an interest in working on larger software projects.
 
 Contact: [Max Schubach](team_schubach.html)
-
+-->
 
     
