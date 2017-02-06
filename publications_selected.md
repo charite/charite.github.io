@@ -4,7 +4,9 @@ title: Selected publications
 
 
 <ol class="bibliography">
-  
+ 
+ <li><span id="PMID27569544"><b>Jäger M</b>, <b>Schubach M</b>, <b>Zemojtel T</b>, Reinert K, Church DM, <b>Robinson PN</b> (2016) Alternate-locus aware variant calling in whole genome sequencing. <i>Genome Medicine </i>, .</span> <a href="https://www.ncbi.nlm.nih.gov/pubmed/27964746">Link</a></li>
+<li><span id="PMID27569544"> Smedley D, <b>Schubach M</b>, Jacobsen JO, <b>Köhler S</b>, <b>Zemojtel T</b>, Spielmann M, <b>Jäger M</b>, Hochheiser H, Washington NL, McMurry JA, Haendel MA, Mungall CJ, Lewis SE, Groza T, Valentini G, <b>Robinson PN</b> (2016) Whole-Genome Analysis Framework for Effective Identification of Pathogenic Regulatory Variants in Mendelian Disease. <i>American Journal of Human Genetics</i>, .</span> <a href="https://www.ncbi.nlm.nih.gov/pubmed/27569544">Link</a>  </li>
 <li><span id="exomiser_natgenet"> Smedley D, Jacobsen JO, <b>Jäger M</b>, <b>Köhler S</b>, <b>Holtgrewe M</b>, <b>Schubach M</b>, Siragusa E, <b>Zemojtel T</b>, Buske OJ, Washington NL, Bone WP, Haendel MA, <b>Robinson PN</b>. (2015). Next-generation diagnostics and disease-gene discovery with the Exomiser. <i>Nature Protocols</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26562621">Link</a>  </li>
 <li><span id="natrevgenet"> Brookes AJ, <b>Robinson PN</b> (2015). Human genotype-phenotype databases: aims, challenges and opportunities. <i>Nature Reviews Genetics</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26553330">Link</a>  </li>  
 <li><span id="phenolyzer"> Yang H, <b>Robinson PN</b>, Wang K. (2015). Phenolyzer: phenotype-based prioritization of candidate genes for human diseases. <i>Nature Methods</i>, .</span>   <a href="http://www.ncbi.nlm.nih.gov/pubmed/26192085">Link</a>  </li>
