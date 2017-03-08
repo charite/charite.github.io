@@ -14,6 +14,7 @@ title: Max Schubach,  M.Sc. Bioinformatics
 
 See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wMAAAAJ) for a complete list.
 
+* Jäger M, __Schubach M__, Zemojtel T, Reinert K, Church DM, Robinson PN. Alternate-locus aware variant calling in whole genome sequencing. *Genome Medicine* 2016;8:130 
 * Smedley D, __Schubach M__, Jacobsen JOB, Köhler S, Zemojtel T, Spielmann M, Jäger M, Hochheiser H, Washington NL, McMurry JA, Haendel MA, Mungall CJ, Lewis SE, Groza T, Valentini G, Robinson PN. A Whole-Genome Analysis Framework for Effective Identification of Pathogenic Regulatory Variants in Mendelian Disease. *The American Journal of Human Genetics*. 2016;99(3):595-606.
 * Smedley D, Jacobsen JOB, Jäger M, Köhler S, Holtgrewe M, __Schubach M__, Siragusa E, Zemojtel T, Buske OJ, Washington NL, Bone WP, Haendel MA, Robinson PN. Next-generation diagnostics and disease-gene discovery with the Exomiser. *Nature protocols*. 2015;10(12):2004–15.
 * Glöckle N, Kohl S, Mohr J, Scheurenbrand T, Sprecher A, Weisschuh N, Bernd A, Rudolph G, __Schubach M__, Poloschek C, Zrenner E, Biskup S, Berger W, Wissinger B, Neidhardt J. Panel-based Next Generation Sequencing as a reliable and efficient technique to detect mutations in unselected patients with retinal dystrophies. *European Journal of Human Genetics*. 2013;22(1):99–104.
@@ -36,7 +37,3 @@ See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wM
 
     Phone: +49/30/450 566006
     Email: max.schubach at charite.de
-
-## Open Master's theses
-
-* [Genome variant simulator](positions_bachelormaster.html)
