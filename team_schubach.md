@@ -5,7 +5,8 @@ title: Max Schubach,  M.Sc. Bioinformatics
 
 |  | |    |
 |----------------:|:------------|:---|
-|09/2014–present|__PhD Student__| *Computational Biology Group, Charité, Berlin.* |
+|07/2017–present|__Postdoc__| *[JRG Computational Genome Biology](https://www.bihealth.org/en/research/junior-groups/martin-kircher/), [Berlin Institute of Health (BIH)](https://www.bihealth.org), Berlin.* |
+|09/2014–06/2017|__PhD Student__| *Computational Biology Group, Charité, Berlin.* |
 |05/2012–08/2014|__Bioinformatician__|*[CeGaT](http://cegat.de), Tübingen*|
 |2009–2012      |__Master of Science in Bioinformatics__|*University of Tübingen*|
 |2006–2009      |__Bachelor of Science in Bioinformatics__|*University of Tübingen*|
@@ -14,6 +15,7 @@ title: Max Schubach,  M.Sc. Bioinformatics
 
 See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wMAAAAJ) for a complete list.
 
+* __Schubach M__, Re M, Robinson PN, Valentini G. Imbalance-Aware Machine Learning for Predicting Rare and Common Disease-Associated Non-Coding Variants. *Scientific Reports*. 2017;7:2959.
 * Jäger M, __Schubach M__, Zemojtel T, Reinert K, Church DM, Robinson PN. Alternate-locus aware variant calling in whole genome sequencing. *Genome Medicine* 2016;8:130 
 * Smedley D, __Schubach M__, Jacobsen JOB, Köhler S, Zemojtel T, Spielmann M, Jäger M, Hochheiser H, Washington NL, McMurry JA, Haendel MA, Mungall CJ, Lewis SE, Groza T, Valentini G, Robinson PN. A Whole-Genome Analysis Framework for Effective Identification of Pathogenic Regulatory Variants in Mendelian Disease. *The American Journal of Human Genetics*. 2016;99(3):595-606.
 * Smedley D, Jacobsen JOB, Jäger M, Köhler S, Holtgrewe M, __Schubach M__, Siragusa E, Zemojtel T, Buske OJ, Washington NL, Bone WP, Haendel MA, Robinson PN. Next-generation diagnostics and disease-gene discovery with the Exomiser. *Nature protocols*. 2015;10(12):2004–15.
@@ -28,12 +30,17 @@ See my [Google Schloar profile](https://scholar.google.de/citations?user=rIsf3wM
 ## Contact
 
     Max Schubach
-    Charité - Universitätsmedizin Berlin
-    Campus Virchow Klinikum
-    Institut für Medizinische Genetik und Humangenetik
-    Augustenburger Platz 1
-    13353 Berlin
+    
+    Visiting Address:
+    Invalidenstraße 80 or Virchoweg 20
+    3rd level, building number 2651, room 03 021
+    10117 Berlin
     Germany
 
-    Phone: +49/30/450 566006
-    Email: max.schubach at charite.de
+    Postal Address:
+    Charitéplatz 1
+    10117 Berlin
+    Germany
+
+    Phone: +49/30/450 543006
+    Email: max.schubach at bihealth.de
