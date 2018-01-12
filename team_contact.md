@@ -18,6 +18,5 @@ Our postal address is:
     (Südstraße 2)
     D-13353 Berlin
 
-We have an email-list at **compbio@charite.de**.
 
     
