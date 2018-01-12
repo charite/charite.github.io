@@ -24,3 +24,4 @@ title: Team (Alumni)
  - [Leon Kuchenbecker, M.Sc.](https://abi.inf.uni-tuebingen.de/People/kuchenb)
  - [Max Schubach, M.Sc.](https://www.bihealth.org/de/forschung/nachwuchsgruppen/martin-kircher/)
  - Sofia Ånäs
+ - Tori Jean Pantel
