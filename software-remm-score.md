@@ -8,7 +8,7 @@ Usage
 ------------
 The ReMM score is genome position wise (nucleotide changes are neglected). We precomputed all positions in the human genome (hg19 release) and stored the values in a tabix file (1-based). The scores ranging from 0 (non-deleterious) to 1 (deleterious).
 
-If you want to use teh ReMM score together with the Genomiser, please have a look at the [Exomiser framework manual](https://exomiser.github.io/Exomiser/)
+If you want to use the ReMM score together with the Genomiser, please have a look at the [Exomiser framework manual](https://exomiser.github.io/Exomiser/)
  
 Download
 ------------
