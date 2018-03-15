@@ -16,15 +16,18 @@ Download
 
 **Version 0.3.1:**
 
-* Tabix file: [ReMM.v0.3.1.tsv.gz](http://remm.visze.de/files/ReMM.v0.3.1.tsv.gz)
-* Tabix index file: [ReMM.v0.3.1.tsv.gz.tbi](http://remm.visze.de/files/ReMM.v0.3.1.tsv.gz.tbi)
-* MD5 checksum: [ReMM.v0.3.1.md5](http://remm.visze.de/files/ReMM.v0.3.1.md5)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1197579.svg)](https://doi.org/10.5281/zenodo.1197579)
+
+* Tabix file: [ReMM.v0.3.1.tsv.gz](https://zenodo.org/record/1197579/files/ReMM.v0.3.1.tsv.gz)
+* Tabix index file: [ReMM.v0.3.1.tsv.gz.tbi](https://zenodo.org/record/1197579/files/ReMM.v0.3.1.tsv.gz.tbi)
+* MD5 checksum: [ReMM.v0.3.1.md5](https://zenodo.org/record/1197579/files/ReMM.v0.3.1.md5)
 
 **Version 0.3:**
 
-* Tabix file: [ReMM.v0.3.tsv.gz](http://remm.visze.de/files/ReMM.v0.3.tsv.gz)
-* Tabix index file: [ReMM.v0.3.tsv.gz.tbi](http://remm.visze.de/files/ReMM.v0.3.tsv.gz.tbi)
-* MD5 checksum: [ReMM.v0.3.md5](http://remm.visze.de/files/ReMM.v0.3.md5)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1198663.svg)](https://doi.org/10.5281/zenodo.1198663)
+
+* Tabix file: [ReMM.v0.3.tsv.gz](https://zenodo.org/record/1198663/files/ReMM.v0.3.tsv.gz)
+* Tabix index file: [ReMM.v0.3.tsv.gz.tbi](https://zenodo.org/record/1198663/files/ReMM.v0.3.tsv.gz.tbi)
 
 Citation
 ------------
