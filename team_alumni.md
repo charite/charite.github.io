@@ -25,3 +25,4 @@ title: Team (Alumni)
  - [Max Schubach, M.Sc.](https://www.bihealth.org/de/forschung/nachwuchsgruppen/martin-kircher/)
  - Sofia Ånäs
  - Tori Jean Pantel
+ - Layal Abo-Kayal
