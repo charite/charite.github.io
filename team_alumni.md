@@ -26,3 +26,4 @@ title: Team (Alumni)
  - Sofia Ånäs
  - Tori Jean Pantel
  - Layal Abo-Kayal
+ - Dr. Marie Coutelier
